@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    background-color: #07024b;
+    padding: 10px 0;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: #9e98f3;
+    padding: 10px 0;
+    color: white;
+}
